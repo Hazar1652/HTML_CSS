@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.block{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+.block:hover{
+    background-color: darkgray;
+    border-radius: 50px;
+}
