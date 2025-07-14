@@ -39,7 +39,6 @@ h1{
     padding-top: 50px;
 }
 .months:hover{
-    height: 260px;
-    width: 260px;
     transition-duration: 1s;
+    transform: scale(1.18);
 }
