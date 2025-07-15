@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 20vh;
+    background: #8D8484;
+}
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
+section{
+    display: flex;
+    background: #776969;
+
+}
+.content_1{
+    height: 20vh;
+    background: #776969;
+    width: 74vw;
+}
+.content_2{
+    height: 20vh;
+    width: 74vw;
+    background: #643030;
+}
+.content_3{
+    height: 20vh;
+    width: 74vw;
+    background: #441818;
+}
+.top{
+    background: #937575;
+    width: 26vw;
+    height: 30vh
+}
+.down{
+    background: #644C4C;
+    width: 26vw;
+    height: 30vh;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+}
+header, footer h1{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+footer, header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section div h1{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.down, .top, .content_1, .content_2, .content_3, h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
