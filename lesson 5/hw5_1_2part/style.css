@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pitch{
+    width: 770px;
+    height: 567px;
+    background-image: url("https://ashevchenko.kiev.ua/assets/images/articles/football-pole.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pitch img{
+    width: 30px;
+    height: 30px;
+    animation: preloader 3s linear infinite alternate;
+}
+@keyframes preloader {
+    from{
+        transform: rotate(0deg)  translate(-380px,0);
+
+    ;
+    }
+    to{
+        transform:   translate(380px,0);
+
+
+    }
+
+}
