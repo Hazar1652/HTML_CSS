@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+.main {
+    width: 470px;
+    height: 600px;
+    /*border: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 0 0;
+}
+
+.info > a {
+    display: block;
+}
+
+label, input {
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    gap: 10px;
+    border: 1px solid #cfcccc;
+}
+
+.info {
+    border: 1px solid #cfcccc;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-a;*/
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 10px;
+}
+
+section > img {
+    width: 60%;
+    /*margin-bottom: 10vh;*/
+    /*margin-top: 10vh;*/
+    padding: 5vh 0;
+}
+
+input {
+    width: 70%;
+    height: 7%;
+    margin: 5px 0;
+}
+
+button {
+    width: 70%;
+    margin-top: 15px;
+    text-decoration: none;
+    background: #66b2f6;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+
+}
+
+section > a:first-of-type {
+    font-size: 18px;
+    text-decoration: none;
+    color: #737373;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+section > a:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #385284;
+    margin-bottom: 40px;
+}
+
+section > a:nth-of-type(3) {
+    color: #385284;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+#email, #password::placeholder {
+    color: #888;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+
+footer p, footer a {
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a {
+    color: #138aef;
+    font-weight: bolder;
+}
+
+#email, #password {
+    background-color: #f9f9f9;
+    border: 1px solid #cfcccc;
+}
+
+
+
+
+
+
